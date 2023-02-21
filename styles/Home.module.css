@@ -1,0 +1,15 @@
+.main {
+  background-image: url("../photos/cover_image_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 5rem;
+  color: rgb(255, 0, 200);
+  padding: 3rem;
+}
