@@ -1,15 +1,64 @@
-.main {
-  background-image: url("../photos/cover_image_1.jpg");
-  background-position: center;
+.home {
+  background-color: black;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  /* background-image: url("../photos/cover_image_1.jpg");
+  background-position: top;
   background-repeat: no-repeat;
-  background-origin: content-box;
-  background-size: cover;
-  height: 100vh;
+  background-origin: border-box;
+  background-size: 100% auto;*/
+  width: 100%;
+  justify-content: flex-start;
+  color: white;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  background-color: red;
+}
+
+.header > h1 {
+  width: fit-content;
+  font-size: 3rem;
+  font-weight: normal;
+  background-color: black;
+  padding: 0rem 1rem;
+  margin: 0;
+}
+
+.main {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  font-size: 5rem;
-  color: rgb(255, 0, 200);
-  padding: 3rem;
+  align-items: center;
+}
+
+.photos_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  column-gap: 1rem;
+  overflow-x: hidden;
+  background-size: cover;
+}
+
+.photos {
+  height: 100%;
+}
+
+@media screen and (width > 770px) {
+  .photos_container {
+    background-image: url("../photos/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem 0rem;
+  }
+
+  .photos {
+    border: 10px rgb(255, 255, 255) solid;
+  }
 }
