@@ -1,0 +1,26 @@
+VS CODE EXTENSIONS
+1. ES7+ React/Redux/React-Native snippets
+2. Emmet
+3. Tailwind CSS Intellisense
+4. Prettier
+5. Auto rename tag
+6.
+
+
+Add and commit with Git
+
+Git command
+
+Add all new files. ----------------------------> git add --all
+
+Remove a file.---------------------------------> git rm <filename>
+
+Commit changes.--------------------------------> git commit -m 'update'
+
+Get an idea of the git command to use next.----> git status 
+
+
+*******************************************************************************----------DEPENDENCIES---------
+npm i swiper
+npm install @sendgrid/mail --save
+npm install react-icons --save
