@@ -51,10 +51,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.home}>
-        <div className={styles.header}>
-          <h1>artSam Artists</h1>
-        </div>
         <div className={styles.main}>
+          <button className={styles.order_drawing_button}>Order_Now</button>
           <div
             className={styles.photos_container}
             style={{
