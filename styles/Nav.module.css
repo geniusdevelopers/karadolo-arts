@@ -18,8 +18,9 @@
   font-weight: normal;
   padding: 0px 1rem;
   margin: 0;
+  background-color: #2196f3;
   border: 2px solid white;
-  color: yellow;
+  color: rgb(255, 255, 255);
   border-radius: 50px;
   display: flex;
   justify-content: center;
