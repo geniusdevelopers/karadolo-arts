@@ -11,7 +11,7 @@ export default function Nav() {
   return (
     <div className={styles.nav}>
       <Link href={"/"} className={`${styles.home_link}`}>
-        artSam
+        artS
       </Link>
       <div className={styles.nav_links_container}>
         <AiOutlineHome className={styles.nav_icon} />
