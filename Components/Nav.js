@@ -15,9 +15,13 @@ export default function Nav() {
       </Link>
       <div className={styles.nav_links_container}>
         <AiOutlineHome className={styles.nav_icon} />
+        <label className={styles.float_label}>Home</label>
         <FcAbout className={styles.nav_icon} />
+        <label className={styles.float_label}>About</label>
         <BiPhoneCall className={styles.nav_icon} />
+        <label className={styles.float_label}>Call</label>
         <BsCartPlus className={styles.nav_icon} />
+        <label className={styles.float_label}>My Orders</label>
       </div>
     </div>
   );
