@@ -44,7 +44,8 @@ export default function Footer() {
       </div>
 
       <div className={styles.copyright_container}>
-        <span>Copyright © 2023, All Right Reserved to artSam</span>
+        <div>Copyright © 2023</div>
+        <div> All Right Reserved to artSam</div>
         <Link className={styles.copyright_link} href="#">
           Terms & Conditions
         </Link>
