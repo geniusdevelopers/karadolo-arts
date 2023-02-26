@@ -97,7 +97,7 @@ export default function Home() {
                 onAutoplayTimeLeft={onAutoplayTimeLeft}
                 className="mySwiper"
               >
-                <SwiperSlide>
+                <SwiperSlide className="swiper-slide">
                   <Image src={art1} alt="art 1" className={styles.photos} />
                 </SwiperSlide>
                 <SwiperSlide>
