@@ -51,7 +51,24 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.home}>
-        <div className={styles.main}>
+        <div className={styles.row_1}>
+          <div className={styles.row_1_background_screen}></div>
+          <div className={styles.row_1_content}>
+            Capture the beauty of nature in a hand-painted work of art created
+            just for you.
+          </div>
+        </div>
+
+        <hr size="5" width="100%" color="white" />
+
+        <div className={styles.row_2}>
+          “ The object of art is not to reproduce reality, but to create a
+          reality of the same intensity. ”
+        </div>
+
+        <hr size="5" width="100%" color="white" />
+
+        <div className={styles.row_3}>
           <button className={styles.order_drawing_button}>Order_Now</button>
           <div
             className={styles.photos_container}
@@ -143,6 +160,15 @@ export default function Home() {
             }
           </div>
         </div>
+
+        <hr size="5" width="100%" color="white" />
+        <div className={styles.row_4}>
+          <div className={styles.row_4_header}>
+            Trending Artists on Karadolo Arts
+          </div>
+          <Image src={art5} alt="" className={styles.trending_artist} />
+        </div>
+        <hr size="5" width="100%" color="white" />
       </div>
     </>
   );
