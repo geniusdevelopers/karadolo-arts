@@ -54,21 +54,16 @@ export default function Home() {
         <div className={styles.row_1}>
           <div className={styles.row_1_background_screen}></div>
           <div className={styles.row_1_content}>
-            Capture the beauty of nature in a hand-painted work of art created
-            just for you.
+            <p>
+              Capture the beauty of nature in a hand-painted work of art created
+              just for you.
+            </p>
           </div>
         </div>
 
         <hr size="5" width="100%" color="white" />
 
         <div className={styles.row_2}>
-          “ The object of art is not to reproduce reality, but to create a
-          reality of the same intensity. ”
-        </div>
-
-        <hr size="5" width="100%" color="white" />
-
-        <div className={styles.row_3}>
           <button className={styles.order_drawing_button}>Order_Now</button>
           <div
             className={styles.photos_container}
@@ -162,12 +157,31 @@ export default function Home() {
         </div>
 
         <hr size="5" width="100%" color="white" />
+
+        <div className={styles.row_3}>
+          <p>
+            “ The object of art is not to reproduce reality, but to create a
+            reality of the same intensity. ”
+          </p>
+        </div>
+
+        <hr size="5" width="100%" color="white" />
+
         <div className={styles.row_4}>
           <div className={styles.row_4_header}>
             Trending Artists on Karadolo Arts
           </div>
-          <Image src={art5} alt="" className={styles.trending_artist} />
+          <div className={styles.trending_artist}>
+            <Image src={art4} alt="" className={styles.trending_artist_pic} />
+          </div>
+          <div className={styles.trending_artist}>
+            <Image src={art5} alt="" className={styles.trending_artist_pic} />
+          </div>
+          <div className={styles.trending_artist}>
+            <Image src={art2} alt="" className={styles.trending_artist_pic} />
+          </div>
         </div>
+
         <hr size="5" width="100%" color="white" />
       </div>
     </>
